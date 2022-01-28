@@ -19,12 +19,12 @@ const rules = reactive({
     trigger: 'blur', 
   }],
 })
-const submitForm = () => {
+const submitForm = (): void => {
   loginFormRef.value.validate(async (valid: any) => {
     if (valid) {}
   })
 }
-const resetForm = () => {
+const resetForm = (): void => {
   loginFormRef.value.resetFields()
 }
 </script>
