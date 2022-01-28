@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+/build/
+/config/
+/dist/
+/*.js
+/*.sh
+/*.yml
+/.*conf
+Dockerfile
+/test
+__mocks__
+fonts/
+test/*
